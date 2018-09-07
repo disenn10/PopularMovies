@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- menu group -->
+    <group android:id="@+id/group_delete">
+        <item android:id="@+id/sort_pop"
+            android:title="@string/popular" />
+        <item android:id="@+id/sort_vote"
+            android:title="@string/top" />
+        <item android:id="@+id/favs"
+            android:title="favorite"/>
+    </group>
+
+</menu>

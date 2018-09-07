@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.disen.popularmovies.MainActivity">
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tab_layout"
+        android:layout_height="wrap_content">
+        </android.support.design.widget.TabLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:elevation="@dimen/activity_horizontal_margin"
+        android:id="@+id/no_internet"
+        android:text="@string/internet"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:visibility="invisible"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:id="@+id/view_pager"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

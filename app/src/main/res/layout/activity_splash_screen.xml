@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.disen.popularmovies.SplashScreen">
+
+    <com.example.disen.popularmovies.Circle
+        android:id="@+id/circle"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:elevation="@dimen/activity_horizontal_margin"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/pop"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.disen.popularmovies.Home">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/favorite_view"
+            android:layout_height="wrap_content">
+        </ListView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/noMovies"
+            android:text="@string/internet"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/emptyview"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="You don't have any favorites"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_movie_black_48dp"
+            android:tint="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>
+</layout>

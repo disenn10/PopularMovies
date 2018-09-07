@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="popular">Popular</string>
+    <string name="top">Top rated</string>
+    <string name="internet">Connect your device to an internet connection</string>
+    <string name="release">Date of release: </string>
+    <string name="overview">Overview</string>
+    <string name="pop">Popular movies</string>
+
+
+
+    <string name="base_url">http://api.themoviedb.org/3/</string>
+    <string name="detailed_url">movie/now_playing?api_key=</string>
+    <string name="popularity">movie/popular?api_key=</string>
+    <string name="highest">movie/top_rated?api_key=</string>
+
+
+
+
+
+
+    <string name="base_youtube">https://www.youtube.com/watch?v=</string>
+    <string name="request">https://api.themoviedb.org/3/movie/</string>
+    <string name="details">Details</string>
+    <string name="duplicate"> is already saved in your favorites</string>
+    <string name="saved">Saved</string>
+    <string name="unfavorited">Unfavorited</string>
+    <string name="remove">Remove </string>
+    <string name="from_favs"> from your favorites</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirmation">Confirmation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
